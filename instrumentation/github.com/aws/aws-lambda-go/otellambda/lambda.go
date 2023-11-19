@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otellambda // import "go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
+package otellambda // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
 
 import (
 	"context"
@@ -30,7 +30,7 @@ import (
 
 const (
 	// ScopeName is the instrumentation scope name.
-	ScopeName = "go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
+	ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
 )
 
 var errorLogger = log.New(log.Writer(), "OTel Lambda Error: ", 0)

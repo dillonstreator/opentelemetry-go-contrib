@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	alib "go.opentelemetry.io/contrib/instrgen/lib"
+	alib "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/lib"
 )
 
 var testcases = map[string]string{

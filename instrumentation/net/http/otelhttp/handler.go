@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelhttp // import "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+package otelhttp // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp"
 
 import (
 	"io"
@@ -21,7 +21,7 @@ import (
 
 	"github.com/felixge/httpsnoop"
 
-	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp/internal/semconvutil"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
@@ -226,7 +226,8 @@ func (h *middleware) serveHTTP(w http.ResponseWriter, r *http.Request, next http
 	labeler := &Labeler{}
 	ctx = injectLabeler(ctx, labeler)
 
-	next.ServeHTTP(w, r.WithContext(ctx))
+	*r = *r.WithContext(ctx)
+	next.ServeHTTP(w, r)
 
 	setAfterServeAttributes(span, bw.read, rww.written, rww.statusCode, bw.err, rww.err)
 

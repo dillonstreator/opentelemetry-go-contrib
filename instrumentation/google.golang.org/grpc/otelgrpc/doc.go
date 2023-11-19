@@ -19,4 +19,4 @@ Use [NewClientHandler] with [grpc.WithStatsHandler] to instrument a gRPC client.
 
 Use [NewServerHandler] with [grpc.StatsHandler] to instrument a gRPC server.
 */
-package otelgrpc // import "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+package otelgrpc // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"

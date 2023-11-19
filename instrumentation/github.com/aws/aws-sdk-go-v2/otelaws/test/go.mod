@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
 
 go 1.20
 
@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/route53 v1.34.1
 	github.com/aws/smithy-go v1.16.0
 	github.com/stretchr/testify v1.8.4
-	go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws v0.46.1
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws v0.46.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/sdk v1.21.0
 	go.opentelemetry.io/otel/trace v1.21.0
@@ -30,4 +30,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws => ../
+replace github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws => ../

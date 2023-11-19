@@ -1,13 +1,13 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho
 
 go 1.20
 
-replace go.opentelemetry.io/contrib/propagators/b3 => ../../../../../propagators/b3
+replace github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3 => ../../../../../propagators/b3
 
 require (
 	github.com/labstack/echo/v4 v4.11.3
 	github.com/stretchr/testify v1.8.4
-	go.opentelemetry.io/contrib/propagators/b3 v1.21.1
+	github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3 v1.21.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/trace v1.21.0
 )

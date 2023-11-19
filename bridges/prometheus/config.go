@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package prometheus // import "go.opentelemetry.io/contrib/bridges/prometheus"
+package prometheus // import "github.com/dillonstreator/opentelemetry-go-contrib/bridges/prometheus"
 
 import (
 	"github.com/prometheus/client_golang/prometheus"

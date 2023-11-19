@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package xrayconfig // import "go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig"
+package xrayconfig // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig"
 
 import (
 	"context"
 	"os"
 
-	lambdadetector "go.opentelemetry.io/contrib/detectors/aws/lambda"
-	"go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
-	"go.opentelemetry.io/contrib/propagators/aws/xray"
+	lambdadetector "github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/aws/xray"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
 	"go.opentelemetry.io/otel/propagation"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"

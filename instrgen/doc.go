@@ -16,4 +16,4 @@
 Package instrgen provides a code generation utility that instruments existing
 source code with OpenTelemetry.
 */
-package instrgen // import "go.opentelemetry.io/contrib/instrgen"
+package instrgen // import "github.com/dillonstreator/opentelemetry-go-contrib/instrgen"

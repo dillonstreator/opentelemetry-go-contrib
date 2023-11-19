@@ -15,7 +15,7 @@
 package ot_test
 
 import (
-	"go.opentelemetry.io/contrib/propagators/ot"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/ot"
 	"go.opentelemetry.io/otel"
 )
 

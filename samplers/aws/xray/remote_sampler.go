@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package xray // import "go.opentelemetry.io/contrib/samplers/aws/xray"
+package xray // import "github.com/dillonstreator/opentelemetry-go-contrib/samplers/aws/xray"
 
 import (
 	"context"
 	"time"
 
-	"go.opentelemetry.io/contrib/samplers/aws/xray/internal"
+	"github.com/dillonstreator/opentelemetry-go-contrib/samplers/aws/xray/internal"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
 	"github.com/go-logr/logr"

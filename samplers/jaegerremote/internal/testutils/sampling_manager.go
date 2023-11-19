@@ -14,12 +14,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package testutils // import "go.opentelemetry.io/contrib/samplers/jaegerremote/internal/testutils"
+package testutils // import "github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote/internal/testutils"
 
 import (
 	"sync"
 
-	jaeger_api_v2 "go.opentelemetry.io/contrib/samplers/jaegerremote/internal/proto-gen/jaeger-idl/proto/api_v2"
+	jaeger_api_v2 "github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote/internal/proto-gen/jaeger-idl/proto/api_v2"
 )
 
 func newSamplingManager() *samplingManager {

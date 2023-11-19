@@ -17,7 +17,7 @@ package otelgrpc_test
 import (
 	"google.golang.org/grpc"
 
-	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 )
 
 func ExampleNewClientHandler() {

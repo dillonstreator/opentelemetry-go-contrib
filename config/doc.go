@@ -4,4 +4,4 @@
 // Package config can be used to parse a configuration file
 // that follows the JSON Schema defined by the OpenTelemetry
 // Configuration schema.
-package config // import "go.opentelemetry.io/contrib/config"
+package config // import "github.com/dillonstreator/opentelemetry-go-contrib/config"

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelmacaron // import "go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron"
+package otelmacaron // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron"
 
 import (
 	"fmt"
@@ -20,14 +20,14 @@ import (
 
 	"gopkg.in/macaron.v1"
 
-	"go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/internal/semconvutil"
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	oteltrace "go.opentelemetry.io/otel/trace"
 )
 
 // ScopeName is the instrumentation scope name.
-const ScopeName = "go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron"
+const ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron"
 
 // Middleware returns a macaron Handler to trace requests to the server.
 func Middleware(service string, opts ...Option) macaron.Handler {

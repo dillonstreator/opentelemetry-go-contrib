@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jaeger // import "go.opentelemetry.io/contrib/propagators/jaeger"
+package jaeger // import "github.com/dillonstreator/opentelemetry-go-contrib/propagators/jaeger"
 
 import "context"
 

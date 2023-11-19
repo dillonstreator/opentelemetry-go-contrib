@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/runtime
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime
 
 go 1.20
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelhttp // import "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+package otelhttp // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp"
 
 import (
 	"context"
@@ -26,7 +26,7 @@ import (
 )
 
 // ScopeName is the instrumentation scope name.
-const ScopeName = "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+const ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp"
 
 // config represents the configuration options available for the http.Handler
 // and http.Transport types.

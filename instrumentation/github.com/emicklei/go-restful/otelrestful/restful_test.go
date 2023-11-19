@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
-	b3prop "go.opentelemetry.io/contrib/propagators/b3"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
+	b3prop "github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
@@ -34,7 +34,7 @@ import (
 	"go.opentelemetry.io/otel/trace/noop"
 )
 
-const tracerName = "go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
+const tracerName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
 
 func TestGetSpanNotInstrumented(t *testing.T) {
 	handlerFunc := func(req *restful.Request, resp *restful.Response) {

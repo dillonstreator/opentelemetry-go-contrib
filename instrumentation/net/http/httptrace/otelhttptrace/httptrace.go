@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelhttptrace // import "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace"
+package otelhttptrace // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace"
 
 import (
 	"context"
 	"net/http"
 
-	"go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace/internal/semconvutil"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/baggage"

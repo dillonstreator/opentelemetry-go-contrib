@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package lib // import "go.opentelemetry.io/contrib/instrgen/lib"
+package lib // import "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/lib"
 
 import (
 	"os"

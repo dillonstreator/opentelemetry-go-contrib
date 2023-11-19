@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelmux // import "go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux"
+package otelmux // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux"
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ import (
 	"github.com/felixge/httpsnoop"
 	"github.com/gorilla/mux"
 
-	"go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux/internal/semconvutil"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
@@ -31,7 +31,7 @@ import (
 
 const (
 	// ScopeName is the instrumentation scope name.
-	ScopeName = "go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux"
+	ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux"
 )
 
 // Middleware sets up a handler to start tracing the incoming

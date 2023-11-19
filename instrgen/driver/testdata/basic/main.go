@@ -18,7 +18,7 @@ package main
 import (
 	"fmt"
 
-	"go.opentelemetry.io/contrib/instrgen/rtlib"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrgen/rtlib"
 )
 
 func recur(n int) {

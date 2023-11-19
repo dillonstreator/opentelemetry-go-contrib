@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package lib // import "go.opentelemetry.io/contrib/instrgen/lib"
+package lib // import "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/lib"
 
 import (
 	"go/ast"
@@ -151,7 +151,7 @@ func (pass *OtelPruner) Execute(
 	})
 	imports = append(imports, Import{"__atel_context", "context", Remove})
 	imports = append(imports, Import{"__atel_otel", "go.opentelemetry.io/otel", Remove})
-	imports = append(imports, Import{"__atel_otelhttp", "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp", Remove})
+	imports = append(imports, Import{"__atel_otelhttp", "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp", Remove})
 
 	return imports
 }

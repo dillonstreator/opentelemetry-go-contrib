@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package runtime // import "go.opentelemetry.io/contrib/instrumentation/runtime"
+package runtime // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime"
 
 // Version is the current release version of the runtime instrumentation.
 func Version() string {

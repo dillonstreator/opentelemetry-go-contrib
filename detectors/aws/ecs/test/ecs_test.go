@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	ecs "go.opentelemetry.io/contrib/detectors/aws/ecs"
+	ecs "github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/ecs"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.21.0"

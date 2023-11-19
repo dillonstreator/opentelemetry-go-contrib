@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package consistent // import "go.opentelemetry.io/contrib/samplers/probability/consistent"
+package consistent // import "github.com/dillonstreator/opentelemetry-go-contrib/samplers/probability/consistent"
 
 import (
 	"strings"

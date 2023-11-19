@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package runtime // import "go.opentelemetry.io/contrib/instrumentation/runtime"
+package runtime // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime"
 
 import (
 	"context"
@@ -25,7 +25,7 @@ import (
 )
 
 // ScopeName is the instrumentation scope name.
-const ScopeName = "go.opentelemetry.io/contrib/instrumentation/runtime"
+const ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime"
 
 // Runtime reports the work-in-progress conventional runtime metrics specified by OpenTelemetry.
 type runtime struct {

@@ -8,7 +8,7 @@ This module detects resource attributes available in AWS Lambda.
 ## Installation
 
 ```bash
-go get -u go.opentelemetry.io/contrib/detectors/aws/lambda
+go get -u github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ package main
 import (
 	"github.com/aws/aws-lambda-go/lambda"
 	sdktrace "go.opencensus.io/otel/sdk/trace"
-	lambdadetector "go.opentelemetry.io/contrib/detectors/aws/lambda"
+	lambdadetector "github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda"
 )
 
 func main() {
@@ -64,6 +64,6 @@ Apache 2.0 - See [LICENSE][license-url] for more information.
 
 [license-url]: https://github.com/open-telemetry/opentelemetry-go-contrib/blob/main/LICENSE
 [license-image]: https://img.shields.io/badge/license-Apache_2.0-green.svg?style=flat
-[goref-image]: https://pkg.go.dev/badge/go.opentelemetry.io/contrib/detectors/aws/lambda.svg
-[goref-url]: https://pkg.go.dev/go.opentelemetry.io/contrib/detectors/aws/lambda
+[goref-image]: https://pkg.go.dev/badge/github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda.svg
+[goref-url]: https://pkg.go.dev/github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda
 [discussions-url]: https://github.com/open-telemetry/opentelemetry-go/discussions

@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrumentation/host
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/host
 
 go 1.20
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aws // import "go.opentelemetry.io/contrib/propagators/aws"
+package aws // import "github.com/dillonstreator/opentelemetry-go-contrib/propagators/aws"
 
 // Version is the current release version of the AWS XRay propagator.
 func Version() string {

@@ -19,8 +19,8 @@ import (
 	"os"
 	"sort"
 
-	"go.opentelemetry.io/contrib/propagators/autoprop"
-	"go.opentelemetry.io/contrib/propagators/b3"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/autoprop"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 )

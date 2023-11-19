@@ -25,4 +25,4 @@
 //     histograms, rather than exponential histograms.
 //
 // [Prometheus Golang client library]: https://github.com/prometheus/client_golang
-package prometheus // import "go.opentelemetry.io/contrib/bridges/prometheus"
+package prometheus // import "github.com/dillonstreator/opentelemetry-go-contrib/bridges/prometheus"

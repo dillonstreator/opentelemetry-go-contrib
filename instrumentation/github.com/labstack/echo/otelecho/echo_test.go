@@ -30,7 +30,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	b3prop "go.opentelemetry.io/contrib/propagators/b3"
+	b3prop "github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
 )
 
 func TestGetSpanNotInstrumented(t *testing.T) {

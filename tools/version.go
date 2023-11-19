@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package tools // import "go.opentelemetry.io/contrib/tools"
+package tools // import "github.com/dillonstreator/opentelemetry-go-contrib/tools"
 
 // Version is the current release version of the OpenTelemetry Contrib tools.
 func Version() string {

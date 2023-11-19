@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelmongo // import "go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo"
+package otelmongo // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo"
 
 import (
 	"go.opentelemetry.io/otel"
@@ -20,7 +20,7 @@ import (
 )
 
 // ScopeName is the instrumentation scope name.
-const ScopeName = "go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo"
+const ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo"
 
 // config is used to configure the mongo tracer.
 type config struct {

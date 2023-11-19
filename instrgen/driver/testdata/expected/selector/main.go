@@ -16,9 +16,9 @@
 package main
 
 import (
-	"go.opentelemetry.io/contrib/instrgen/rtlib"
-	__atel_otel "go.opentelemetry.io/otel"
 	__atel_context "context"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrgen/rtlib"
+	__atel_otel "go.opentelemetry.io/otel"
 )
 
 type Driver interface {

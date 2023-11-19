@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package filters // import "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/filters"
+package filters // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/filters"
 
 import (
 	"path"
 	"strings"
 
-	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 )
 
 type gRPCPath struct {

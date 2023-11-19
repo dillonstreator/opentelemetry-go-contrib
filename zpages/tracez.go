@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package zpages // import "go.opentelemetry.io/contrib/zpages"
+package zpages // import "github.com/dillonstreator/opentelemetry-go-contrib/zpages"
 
 import (
 	"fmt"

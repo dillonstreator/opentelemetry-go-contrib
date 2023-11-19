@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package semconvutil // import "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace/internal/semconvutil"
+package semconvutil // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace/internal/semconvutil"
 
 import (
 	"net"

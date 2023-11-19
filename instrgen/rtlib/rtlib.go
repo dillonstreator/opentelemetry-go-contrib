@@ -14,7 +14,7 @@
 
 // Basic runtime library
 
-package rtlib // import "go.opentelemetry.io/contrib/instrgen/rtlib"
+package rtlib // import "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/rtlib"
 
 import (
 	"context"

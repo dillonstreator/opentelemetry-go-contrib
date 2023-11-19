@@ -16,9 +16,9 @@
 package main
 
 import (
-	. "go.opentelemetry.io/contrib/instrgen/testdata/interface/app"
-	. "go.opentelemetry.io/contrib/instrgen/testdata/interface/serializer"
-	"go.opentelemetry.io/contrib/instrgen/rtlib"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrgen/rtlib"
+	. "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/testdata/interface/app"
+	. "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/testdata/interface/serializer"
 )
 
 func main() {

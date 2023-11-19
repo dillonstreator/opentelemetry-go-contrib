@@ -1,12 +1,12 @@
-module go.opentelemetry.io/contrib/instrgen/driver
+module github.com/dillonstreator/opentelemetry-go-contrib/instrgen/driver
 
 go 1.20
 
-replace go.opentelemetry.io/contrib/instrgen => ../
+replace github.com/dillonstreator/opentelemetry-go-contrib/instrgen => ../
 
 require (
 	github.com/stretchr/testify v1.8.4
-	go.opentelemetry.io/contrib/instrgen v0.0.0-00010101000000-000000000000
+	github.com/dillonstreator/opentelemetry-go-contrib/instrgen v0.0.0-00010101000000-000000000000
 )
 
 require (

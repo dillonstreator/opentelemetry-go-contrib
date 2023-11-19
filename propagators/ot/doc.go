@@ -14,4 +14,4 @@
 
 // Package ot implements the ot-tracer-* propagator used by the default Tracer
 // implementation from the OpenTracing project.
-package ot // import "go.opentelemetry.io/contrib/propagators/ot"
+package ot // import "github.com/dillonstreator/opentelemetry-go-contrib/propagators/ot"

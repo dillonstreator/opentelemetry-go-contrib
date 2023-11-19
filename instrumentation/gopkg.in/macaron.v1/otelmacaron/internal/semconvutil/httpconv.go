@@ -15,7 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package semconvutil // import "go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/internal/semconvutil"
+package semconvutil // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/internal/semconvutil"
 
 import (
 	"fmt"

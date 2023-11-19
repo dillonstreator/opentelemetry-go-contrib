@@ -1,12 +1,12 @@
-module go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
 
 go 1.20
 
 require (
 	github.com/stretchr/testify v1.8.4
 	go.mongodb.org/mongo-driver v1.13.0
-	go.opentelemetry.io/contrib v1.21.1
-	go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo v0.46.1
+	github.com/dillonstreator/opentelemetry-go-contrib v1.21.1
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo v0.46.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/sdk v1.21.0
 	go.opentelemetry.io/otel/trace v1.21.0
@@ -33,6 +33,6 @@ require (
 )
 
 replace (
-	go.opentelemetry.io/contrib => ../../../../../..
-	go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo => ../
+	github.com/dillonstreator/opentelemetry-go-contrib => ../../../../../..
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo => ../
 )

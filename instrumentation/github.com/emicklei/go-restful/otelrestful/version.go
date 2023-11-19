@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelrestful // import "go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
+package otelrestful // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
 
 // Version is the current release version of the go-restful instrumentation.
 func Version() string {

@@ -15,4 +15,4 @@
 // Package autoexport provides OpenTelemetry exporter factory functions
 // with defaults and environment variable support as defined by the
 // OpenTelemetry specification.
-package autoexport // import "go.opentelemetry.io/contrib/exporters/autoexport"
+package autoexport // import "github.com/dillonstreator/opentelemetry-go-contrib/exporters/autoexport"

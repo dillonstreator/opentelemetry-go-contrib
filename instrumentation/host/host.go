@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package host // import "go.opentelemetry.io/contrib/instrumentation/host"
+package host // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/host"
 
 import (
 	"context"
@@ -31,7 +31,7 @@ import (
 )
 
 // ScopeName is the instrumentation scope name.
-const ScopeName = "go.opentelemetry.io/contrib/instrumentation/host"
+const ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/host"
 
 // Host reports the work-in-progress conventional host metrics specified by OpenTelemetry.
 type host struct {

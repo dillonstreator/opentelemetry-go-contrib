@@ -25,8 +25,8 @@ import (
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc"
 
-	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
-	"go.opentelemetry.io/contrib/propagators/opencensus"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus"
 	"go.opentelemetry.io/otel"
 	stdout "go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"

@@ -21,7 +21,7 @@ import (
 	"log"
 	"os"
 
-	alib "go.opentelemetry.io/contrib/instrgen/lib"
+	alib "github.com/dillonstreator/opentelemetry-go-contrib/instrgen/lib"
 )
 
 func usage() error {

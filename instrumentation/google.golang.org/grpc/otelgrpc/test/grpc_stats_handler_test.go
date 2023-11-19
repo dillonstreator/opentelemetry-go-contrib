@@ -28,7 +28,7 @@ import (
 	"google.golang.org/grpc/interop"
 	"google.golang.org/grpc/status"
 
-	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	"go.opentelemetry.io/otel/sdk/metric"
@@ -624,7 +624,7 @@ func checkClientMetrics(t *testing.T, reader metric.Reader) {
 	require.Len(t, rm.ScopeMetrics[0].Metrics, 5)
 	expectedScopeMetric := metricdata.ScopeMetrics{
 		Scope: instrumentation.Scope{
-			Name:      "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+			Name:      "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc",
 			Version:   otelgrpc.Version(),
 			SchemaURL: "https://opentelemetry.io/schemas/1.17.0",
 		},
@@ -977,7 +977,7 @@ func checkServerMetrics(t *testing.T, reader metric.Reader) {
 	require.Len(t, rm.ScopeMetrics[0].Metrics, 5)
 	expectedScopeMetric := metricdata.ScopeMetrics{
 		Scope: instrumentation.Scope{
-			Name:      "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+			Name:      "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc",
 			Version:   otelgrpc.Version(),
 			SchemaURL: "https://opentelemetry.io/schemas/1.17.0",
 		},

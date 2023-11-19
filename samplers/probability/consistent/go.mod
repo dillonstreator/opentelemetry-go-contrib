@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/samplers/probability/consistent
+module github.com/dillonstreator/opentelemetry-go-contrib/samplers/probability/consistent
 
 go 1.20
 

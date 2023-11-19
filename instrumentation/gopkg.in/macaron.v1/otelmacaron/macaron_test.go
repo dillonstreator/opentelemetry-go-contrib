@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/macaron.v1"
 
-	b3prop "go.opentelemetry.io/contrib/propagators/b3"
+	b3prop "github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	oteltrace "go.opentelemetry.io/otel/trace"

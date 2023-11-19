@@ -15,7 +15,7 @@
 package prometheus_test
 
 import (
-	"go.opentelemetry.io/contrib/bridges/prometheus"
+	"github.com/dillonstreator/opentelemetry-go-contrib/bridges/prometheus"
 	"go.opentelemetry.io/otel/sdk/metric"
 )
 

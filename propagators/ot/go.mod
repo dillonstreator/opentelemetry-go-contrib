@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/propagators/ot
+module github.com/dillonstreator/opentelemetry-go-contrib/propagators/ot
 
 go 1.20
 

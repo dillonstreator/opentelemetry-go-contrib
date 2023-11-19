@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package gcp // import "go.opentelemetry.io/contrib/detectors/gcp"
+package gcp // import "github.com/dillonstreator/opentelemetry-go-contrib/detectors/gcp"
 
 import "github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp"
 

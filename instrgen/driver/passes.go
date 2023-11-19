@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"go.opentelemetry.io/contrib/instrgen/lib"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrgen/lib"
 )
 
 const (

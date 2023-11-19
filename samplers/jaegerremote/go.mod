@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/samplers/jaegerremote
+module github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote
 
 go 1.20
 

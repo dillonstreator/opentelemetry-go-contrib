@@ -1,4 +1,4 @@
-module go.opentelemetry.io/contrib/instrgen
+module github.com/dillonstreator/opentelemetry-go-contrib/instrgen
 
 go 1.20
 

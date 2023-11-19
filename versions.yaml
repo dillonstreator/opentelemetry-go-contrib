@@ -16,78 +16,78 @@ module-sets:
   stable-v1:
     version: v1.21.1
     modules:
-      - go.opentelemetry.io/contrib
-      - go.opentelemetry.io/contrib/tools
-      - go.opentelemetry.io/contrib/propagators/aws
-      - go.opentelemetry.io/contrib/propagators/ot
-      - go.opentelemetry.io/contrib/propagators/jaeger
-      - go.opentelemetry.io/contrib/propagators/b3
-      - go.opentelemetry.io/contrib/detectors/gcp
-      - go.opentelemetry.io/contrib/detectors/aws/ec2
-      - go.opentelemetry.io/contrib/detectors/aws/ecs
-      - go.opentelemetry.io/contrib/detectors/aws/eks
+      - github.com/dillonstreator/opentelemetry-go-contrib
+      - github.com/dillonstreator/opentelemetry-go-contrib/tools
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/aws
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/ot
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/jaeger
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3
+      - github.com/dillonstreator/opentelemetry-go-contrib/detectors/gcp
+      - github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/ec2
+      - github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/ecs
+      - github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/eks
   experimental-instrumentation:
     version: v0.46.1
     modules:
-      - go.opentelemetry.io/contrib/bridges/prometheus
-      - go.opentelemetry.io/contrib/detectors/aws/lambda
-      - go.opentelemetry.io/contrib/exporters/autoexport
-      - go.opentelemetry.io/contrib/propagators/autoprop
-      - go.opentelemetry.io/contrib/propagators/opencensus
-      - go.opentelemetry.io/contrib/propagators/opencensus/examples
-      - go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron
-      - go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/example
-      - go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/test
-      - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
-      - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/example
-      - go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/test
-      - go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace
-      - go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace/example
-      - go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace/test
-      - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
-      - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/example
-      - go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/test
-      - go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo
-      - go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho
-      - go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
-      - go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful
-      - go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/example
-      - go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
-      - go.opentelemetry.io/contrib/zpages
+      - github.com/dillonstreator/opentelemetry-go-contrib/bridges/prometheus
+      - github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/lambda
+      - github.com/dillonstreator/opentelemetry-go-contrib/exporters/autoexport
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/autoprop
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus
+      - github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus/examples
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/httptrace/otelhttptrace/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/xrayconfig
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-lambda-go/otellambda/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/aws/aws-sdk-go-v2/otelaws/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
+      - github.com/dillonstreator/opentelemetry-go-contrib/zpages
   experimental-metrics:
     version: v0.46.1
     modules:
-      - go.opentelemetry.io/contrib/instrumentation/host
-      - go.opentelemetry.io/contrib/instrumentation/host/example
-      - go.opentelemetry.io/contrib/instrumentation/runtime
-      - go.opentelemetry.io/contrib/instrumentation/runtime/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/host
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/host/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime
+      - github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/runtime/example
   experimental-samplers:
     version: v0.15.1
     modules:
-      - go.opentelemetry.io/contrib/samplers/aws/xray
-      - go.opentelemetry.io/contrib/samplers/jaegerremote
-      - go.opentelemetry.io/contrib/samplers/jaegerremote/example
-      - go.opentelemetry.io/contrib/samplers/probability/consistent
+      - github.com/dillonstreator/opentelemetry-go-contrib/samplers/aws/xray
+      - github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote
+      - github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote/example
+      - github.com/dillonstreator/opentelemetry-go-contrib/samplers/probability/consistent
   experimental-config:
     version: v0.1.1
     modules:
-      - go.opentelemetry.io/contrib/config
+      - github.com/dillonstreator/opentelemetry-go-contrib/config
 excluded-modules:
-  - go.opentelemetry.io/contrib/instrgen
-  - go.opentelemetry.io/contrib/instrgen/driver
-  - go.opentelemetry.io/contrib/instrgen/testdata/interface
+  - github.com/dillonstreator/opentelemetry-go-contrib/instrgen
+  - github.com/dillonstreator/opentelemetry-go-contrib/instrgen/driver
+  - github.com/dillonstreator/opentelemetry-go-contrib/instrgen/testdata/interface

@@ -1,10 +1,10 @@
-module go.opentelemetry.io/contrib/instrgen/testdata/interface
+module github.com/dillonstreator/opentelemetry-go-contrib/instrgen/testdata/interface
 
 go 1.20
 
-replace go.opentelemetry.io/contrib/instrgen => ../../..
+replace github.com/dillonstreator/opentelemetry-go-contrib/instrgen => ../../..
 
-require go.opentelemetry.io/contrib/instrgen v0.0.0-20221228173227-92e0588b124b
+require github.com/dillonstreator/opentelemetry-go-contrib/instrgen v0.0.0-20221228173227-92e0588b124b
 
 require (
 	github.com/go-logr/logr v1.3.0 // indirect

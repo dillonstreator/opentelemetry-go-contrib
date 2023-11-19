@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package xray // import "go.opentelemetry.io/contrib/samplers/aws/xray"
+package xray // import "github.com/dillonstreator/opentelemetry-go-contrib/samplers/aws/xray"
 
 import (
 	crand "crypto/rand"

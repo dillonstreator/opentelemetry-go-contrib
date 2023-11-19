@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"net/http/httptrace"
 
-	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/net/http/otelhttp"
 )
 
 func ExampleNewClientTrace() {

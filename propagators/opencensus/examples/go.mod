@@ -1,11 +1,11 @@
-module go.opentelemetry.io/contrib/propagators/opencensus/examples
+module github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus/examples
 
 go 1.20
 
 require (
 	go.opencensus.io v0.24.0
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.1
-	go.opentelemetry.io/contrib/propagators/opencensus v0.46.1
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.1
+	github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus v0.46.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.21.0
 	go.opentelemetry.io/otel/sdk v1.21.0
@@ -30,6 +30,6 @@ require (
 )
 
 replace (
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc => ../../../instrumentation/google.golang.org/grpc/otelgrpc
-	go.opentelemetry.io/contrib/propagators/opencensus => ../
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc => ../../../instrumentation/google.golang.org/grpc/otelgrpc
+	github.com/dillonstreator/opentelemetry-go-contrib/propagators/opencensus => ../
 )

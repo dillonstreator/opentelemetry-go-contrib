@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jaegerremote // import "go.opentelemetry.io/contrib/samplers/jaegerremote"
+package jaegerremote // import "github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote"
 
 import (
 	"encoding/binary"
@@ -22,8 +22,8 @@ import (
 	"math"
 	"sync"
 
-	jaeger_api_v2 "go.opentelemetry.io/contrib/samplers/jaegerremote/internal/proto-gen/jaeger-idl/proto/api_v2"
-	"go.opentelemetry.io/contrib/samplers/jaegerremote/internal/utils"
+	jaeger_api_v2 "github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote/internal/proto-gen/jaeger-idl/proto/api_v2"
+	"github.com/dillonstreator/opentelemetry-go-contrib/samplers/jaegerremote/internal/utils"
 	"go.opentelemetry.io/otel/sdk/trace"
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

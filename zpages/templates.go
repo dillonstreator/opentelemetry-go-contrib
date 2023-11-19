@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-package zpages // import "go.opentelemetry.io/contrib/zpages"
+package zpages // import "github.com/dillonstreator/opentelemetry-go-contrib/zpages"
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ import (
 	"io"
 	"log"
 
-	"go.opentelemetry.io/contrib/zpages/internal"
+	"github.com/dillonstreator/opentelemetry-go-contrib/zpages/internal"
 )
 
 var (

@@ -1,11 +1,11 @@
-module go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
+module github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/test
 
 go 1.20
 
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/stretchr/testify v1.8.4
-	go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful v0.46.1
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful v0.46.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/sdk v1.21.0
 	go.opentelemetry.io/otel/trace v1.21.0
@@ -25,6 +25,6 @@ require (
 )
 
 replace (
-	go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful => ../
-	go.opentelemetry.io/contrib/propagators/b3 => ../../../../../../propagators/b3
+	github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful => ../
+	github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3 => ../../../../../../propagators/b3
 )

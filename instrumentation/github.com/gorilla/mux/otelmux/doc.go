@@ -16,4 +16,4 @@
 //
 // Currently only the routing of a received message can be instrumented. To do
 // it, use the Middleware function.
-package otelmux // import "go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux"
+package otelmux // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux"

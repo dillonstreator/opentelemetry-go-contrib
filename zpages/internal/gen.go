@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internal // import "go.opentelemetry.io/contrib/zpages/internal"
+package internal // import "github.com/dillonstreator/opentelemetry-go-contrib/zpages/internal"
 
 import "embed"
 

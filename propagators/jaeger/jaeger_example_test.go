@@ -15,7 +15,7 @@
 package jaeger_test
 
 import (
-	"go.opentelemetry.io/contrib/propagators/jaeger"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/jaeger"
 	"go.opentelemetry.io/otel"
 )
 

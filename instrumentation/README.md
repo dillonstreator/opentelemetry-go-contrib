@@ -64,16 +64,16 @@ In order to ensure the maintainability and discoverability of instrumentation pa
 All instrumentation packages SHOULD be of the form:
 
 ```sh
-go.opentelemetry.io/contrib/instrumentation/{IMPORT_PATH}/otel{PACKAGE_NAME}
+github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/{IMPORT_PATH}/otel{PACKAGE_NAME}
 ```
 
 Where the [`{IMPORT_PATH}`](https://golang.org/ref/spec#ImportPath) and [`{PACKAGE_NAME}`](https://golang.org/ref/spec#PackageName) are the standard Go identifiers for the package being instrumented.
 
 For example:
 
-- `go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux`
-- `go.opentelemetry.io/contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron`
-- `go.opentelemetry.io/contrib/instrumentation/database/sql/otelsql`
+- `github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gorilla/mux/otelmux`
+- `github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/gopkg.in/macaron.v1/otelmacaron`
+- `github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/database/sql/otelsql`
 
 Exceptions to this rule exist.
 For example, the [runtime](./runtime) and [host](./host) instrumentation do not instrument any Go package and therefore do not fit this structure.

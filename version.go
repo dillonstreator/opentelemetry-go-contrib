@@ -14,7 +14,7 @@
 
 // Package contrib contains common values used across all
 // instrumentation, exporter, and detector contributions.
-package contrib // import "go.opentelemetry.io/contrib"
+package contrib // import "github.com/dillonstreator/opentelemetry-go-contrib"
 
 // Version is the current release version of OpenTelemetry Contrib in use.
 func Version() string {

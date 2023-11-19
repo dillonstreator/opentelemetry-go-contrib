@@ -247,7 +247,7 @@ test-coverage/%:
 	@set -e; \
 		CMD="$(GO) test -race -covermode=$(COVERAGE_MODE) -coverprofile=$(COVERAGE_PROFILE)"; \
 		echo "$(DIR)" | grep -q 'test$$' \
-		&& CMD="$$CMD -coverpkg=go.opentelemetry.io/contrib/$$( dirname "$(DIR)" | sed -e "s/^\.\///g" )/..."; \
+		&& CMD="$$CMD -coverpkg=github.com/dillonstreator/opentelemetry-go-contrib/$$( dirname "$(DIR)" | sed -e "s/^\.\///g" )/..."; \
 		echo "$$CMD $(DIR)/..."; \
 		cd "$(DIR)" \
 		&& $$CMD ./... \
@@ -263,7 +263,7 @@ test-mongo-driver:
 	    $(GO) test \
 		  -covermode=$(COVERAGE_MODE) \
 		  -coverprofile=$(COVERAGE_PROFILE) \
-		  -coverpkg=go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/...  \
+		  -coverpkg=github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/...  \
 		  ./... \
 	    && $(GO) tool cover -html=$(COVERAGE_PROFILE) -o coverage.html); \
 	  cp ./instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo/test/coverage.out ./; \

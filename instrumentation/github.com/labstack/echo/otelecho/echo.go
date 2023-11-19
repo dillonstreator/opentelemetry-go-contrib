@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelecho // import "go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho"
+package otelecho // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho"
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	"go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho/internal/semconvutil"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
@@ -32,7 +32,7 @@ import (
 const (
 	tracerKey = "otel-go-contrib-tracer-labstack-echo"
 	// ScopeName is the instrumentation scope name.
-	ScopeName = "go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho"
+	ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/labstack/echo/otelecho"
 )
 
 // Middleware returns echo middleware which will trace incoming requests.

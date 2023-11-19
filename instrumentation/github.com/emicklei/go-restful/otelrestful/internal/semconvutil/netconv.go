@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package semconvutil // import "go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/internal/semconvutil"
+package semconvutil // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful/internal/semconvutil"
 
 import (
 	"net"

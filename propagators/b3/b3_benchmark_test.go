@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"testing"
 
-	"go.opentelemetry.io/contrib/propagators/b3"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 )

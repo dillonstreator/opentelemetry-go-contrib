@@ -22,4 +22,4 @@
 //   - the container level
 //   - webservice level
 //   - route level
-package otelrestful // import "go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"
+package otelrestful // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/emicklei/go-restful/otelrestful"

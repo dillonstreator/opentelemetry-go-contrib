@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package autoprop // import "go.opentelemetry.io/contrib/propagators/autoprop"
+package autoprop // import "github.com/dillonstreator/opentelemetry-go-contrib/propagators/autoprop"
 
 import (
 	"errors"
@@ -20,10 +20,10 @@ import (
 	"strings"
 	"sync"
 
-	"go.opentelemetry.io/contrib/propagators/aws/xray"
-	"go.opentelemetry.io/contrib/propagators/b3"
-	"go.opentelemetry.io/contrib/propagators/jaeger"
-	"go.opentelemetry.io/contrib/propagators/ot"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/aws/xray"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/b3"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/jaeger"
+	"github.com/dillonstreator/opentelemetry-go-contrib/propagators/ot"
 	"go.opentelemetry.io/otel/propagation"
 )
 

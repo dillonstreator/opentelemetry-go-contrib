@@ -14,14 +14,14 @@
 
 // Based on https://github.com/DataDog/dd-trace-go/blob/8fb554ff7cf694267f9077ae35e27ce4689ed8b6/contrib/gin-gonic/gin/gintrace.go
 
-package otelgin // import "go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
+package otelgin // import "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
 
 import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
 
-	"go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin/internal/semconvutil"
+	"github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin/internal/semconvutil"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
@@ -33,7 +33,7 @@ import (
 const (
 	tracerKey = "otel-go-contrib-tracer"
 	// ScopeName is the instrumentation scope name.
-	ScopeName = "go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
+	ScopeName = "github.com/dillonstreator/opentelemetry-go-contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
 )
 
 // Middleware returns middleware that will trace incoming requests.

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package eks // import "go.opentelemetry.io/contrib/detectors/aws/eks"
+package eks // import "github.com/dillonstreator/opentelemetry-go-contrib/detectors/aws/eks"
 
 // Version is the current release version of the EKS resource detector.
 func Version() string {
